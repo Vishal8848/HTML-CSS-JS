@@ -1,0 +1,29 @@
+body{
+    background-color: aliceblue;
+    text-shadow: brown;
+    text-align: center;
+}
+
+h3{   
+    font-family:'Lucida Grande';    
+}
+
+#four{
+    font-size: 25px;
+    font-family:'Lucida Sans';
+}
+
+.one{   
+    text-align:left;    
+    font-family: 'Times New Roman';
+}
+
+.two{   
+    text-align:center;    
+    font-family: 'Times New Roman';
+}
+
+.three{   
+    text-align:right;    
+    font-family: 'Times New Roman';
+}

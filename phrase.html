@@ -1,0 +1,81 @@
+<!-- Basic HTML Boilerplate-->
+<!DOCTYPE html>
+
+<html>
+    <!-- Learning Phrase Tags in HTML -->
+    <head>
+        <title>
+            Phrase Tags in HTML
+        </title>
+        <style>
+            body{
+                font-family: 'Times New Roman';
+                font-style: italic;
+                background-color:powderblue;
+                font-size: 25px;
+            }
+            #one{
+                font-family:sans-serif;
+                font-size:20px;
+            }
+            pre{
+                font-size: 18px;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>    Welcome to Phrase Tags in HTML  </h3>
+        <hr>
+        <p title="Basic Phrase Tags"> 
+            This section will contain the demonstration of Phrase Tags
+            <!--
+                Types of Phrase Tags:
+                    1. Strong <strong>
+                    2. Mark <mark>
+                    3. Emphasized <em>
+                    4. Quote <q>
+                    5. Abbreviattion <abbr>
+                    6. Cite <cite>
+                    7. Pre <pre>
+                    8. Code <code>
+            -->
+        </p>    <hr>
+        <p id="one">
+            <em><strong> My Name is </strong><mark>Vishal Pranav</mark></em>
+        </p>
+        <p id="two">
+            <q>I am learning <abbr title="HyperText Markup Language">HTML</abbr></q>
+            <br>
+    <pre>
+                Today is Thursday, I am practicing HTML since last week.
+        Now, I have reached Phrase Tags concept in HTML. I am interested 
+        to learn more and upgrade my skills.
+        <!-- &lt; and &gt; are called HTML entities which represent < and > characters
+                Few HTML entities example:
+                    Blank space  - ( ) - &nbsp;
+                    Lesser than  - (<) - &lt;
+                    Greater than - (>) - &gt;
+                    Ampersand    - (&) - &amp;
+        -->
+        A Sample C++ Program is printed below using <i>&lt;code&gt;</i> tag :
+        <i>
+            <code>
+                #include &lt;iostream&gt;
+                #include &lt;fstream&gt;
+
+                using namespace std;
+
+                int main()
+                {
+                    int a, b = &amp;a, &amp;c = b;
+                    cout &lt;&lt; <q>Hello, World !</q> &lt;&lt; endl;
+                    return 0;
+                }
+            </code>
+        </i>
+        <cite>Learning these concepts from <a href="https://onlinecourses.swayam2.ac.in/aic20_sp11/unit?unit=4&lesson=13" target="_blank"> <i>Swayam Portal <sup>NPTEL</sup></i></a>
+        </cite>
+    </pre>
+        </p>
+    </body>
+</html>

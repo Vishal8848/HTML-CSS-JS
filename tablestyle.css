@@ -1,0 +1,25 @@
+body{
+    background-color:blanchedalmond;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    text-align:center;
+}
+h2{
+    font-style: italic;
+}
+#first{
+    font-family: 'Times New Roman';
+}
+caption{
+    font-style: italic;
+    font-size: 25px;
+}
+table, td, th{
+    border: 3px solid steelblue;
+    border-spacing: 5px;
+    padding: 10px;
+    width:500px;
+}
+#last{
+    font-style: italic;
+}
