@@ -1,2 +1,3 @@
-# Web
-Web Application Files - HTML, CSS, JavaScript, PHP
+# HTML CSS JS
+
+Practice files of HTML, CSS and JS for future reference.
